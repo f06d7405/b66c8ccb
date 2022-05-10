@@ -50,7 +50,7 @@ EOF
 hi! Twilight ctermfg=08
 "autocmd VimEnter * TwilightEnable
 
-let g:airline_theme='vanguard'
+let g:airline_theme='aposematism'
 
 let g:opamshare = substitute(system('opam var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
